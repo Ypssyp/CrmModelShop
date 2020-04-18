@@ -48,7 +48,7 @@ namespace CrmUi
             }
         }
 
-        private void SellerAddToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void sellerAddToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             var form = new SellerForm();
             if (form.ShowDialog() == DialogResult.OK)
